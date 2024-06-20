@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d955aa9f6b0666340b74e44bc24bb444, type: 3}
+  m_Name: Bomber
+  m_EditorClassIdentifier: 
+  Events:
+    Killed:
+      m_PersistentCalls:
+        m_Calls: []
+    Hurt:
+      m_PersistentCalls:
+        m_Calls: []
+    WhenPlayed:
+      m_PersistentCalls:
+        m_Calls: []
+    Rush:
+      m_PersistentCalls:
+        m_Calls: []
+  Name: Bomber
+  Sprite: {fileID: 21300000, guid: 3ea786f64d71a5e4f9e594d89ca6d76d, type: 3}
+  AttackDmg: 5
+  Health: 1
+  CoinCost: 3
+  Tag: 0
